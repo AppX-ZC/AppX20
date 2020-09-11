@@ -4,6 +4,7 @@
   justify-content: space-around;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .welcome__logo {
@@ -39,6 +40,13 @@
   cursor: pointer;
   z-index: 10;
   color: #18558b;
+}
+
+.welcome__links--scroll {
+  background-color: #18558b;
+  padding: 32px 0;
+  border-radius: 10px;
+  transition: all 0.3s;
 }
 
 .welcome__links--mobile:hover {

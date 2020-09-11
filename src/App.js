@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Welcome from "./sections/welcome/Welcome";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./Home";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       ></link>
       <Router>
         <Switch>
-          <Route path="/">
-            <Welcome />
+          <Route path="/" exact>
+            <Home />
           </Route>
         </Switch>
       </Router>

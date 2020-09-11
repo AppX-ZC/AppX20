@@ -1,0 +1,38 @@
+.timer {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 25px #00000029;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  width: 79%;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer__glass {
+  height: 60%;
+  margin-right: 40px;
+}
+.timer__time {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.timer__time--count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.timer__time--num {
+  color: #18558b;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.timer__time--title {
+  color: #55cb43;
+}

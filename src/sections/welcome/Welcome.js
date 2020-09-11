@@ -1,7 +1,5 @@
 import React from "react";
 import "./Welcome.css";
-
-import Navbar from "./Navbar";
 import Intro from "./Intro";
 import Buttons from "./Buttons";
 
@@ -14,7 +12,7 @@ function Welcome() {
         backgroundSize: "cover",
       }}
     >
-      <Navbar />
+      {/* <Navbar /> */}
       <Intro />
       <Buttons />
     </div>

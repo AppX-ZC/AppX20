@@ -1,0 +1,31 @@
+.staytuned {
+  height: 1000px;
+  margin-top: 700px;
+  background-color: #e5f3ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.staytuned__header {
+  font-size: 30px;
+  font-weight: 400;
+  color: #18558b;
+  margin-bottom: 80px;
+  /* margin-top: 180px; */
+}
+
+.staytuned__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+@media (max-width: 767px) {
+  .staytuned__header {
+    margin-top: 180px;
+  }
+}

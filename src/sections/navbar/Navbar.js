@@ -1,10 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
 import "./Navbar.css";
 
 function Navbar() {
   const [openNav, setOpenNav] = useState(false);
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    });
+  }, []);
+
   return (
     <nav className="welcome__nav">
       {/* Logo */}
@@ -17,7 +29,9 @@ function Navbar() {
         }}
       />
       <div
-        className={`welcome__links ${openNav && "welcome__links--mobileOpen"}`}
+        className={`welcome__links ${openNav && "welcome__links--mobileOpen"} ${
+          !openNav && scroll ? "welcome__links--scroll" : ""
+        }`}
       >
         <Link className="welcome__link welcome__link--selected" to="/">
           <span className="welcome__linkText">HOME</span>{" "}
