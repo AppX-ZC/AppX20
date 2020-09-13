@@ -1,0 +1,77 @@
+.prizes {
+  height: 600px;
+  background-color: #e5f3ff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.prizes__header {
+  font-size: 30px;
+  font-weight: 400;
+  color: #18558b;
+  padding-bottom: 10px;
+  z-index: 2;
+}
+.prizes__divider {
+  height: 1px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.prizes__divider--thick {
+  width: 50px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #18558b;
+  position: absolute;
+}
+
+.prizes__divider--thin {
+  width: 80px;
+  height: 1px;
+  border-radius: 10px;
+  background-color: #18558b;
+}
+
+.prizes__description {
+  max-width: 500px;
+  text-align: center;
+  color: #606060;
+  letter-spacing: 1.8px;
+  z-index: 2;
+}
+
+.prizes__cards {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 2;
+}
+
+.prizes__dots {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 30px 30px;
+  align-items: center;
+}
+.prizes__dots--right {
+  margin-top: 350px;
+}
+
+@media (max-width: 1000px) {
+  .prizes__cards {
+    flex-direction: column;
+  }
+  .prizes {
+    height: 800px;
+  }
+}

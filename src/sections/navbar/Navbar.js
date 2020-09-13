@@ -20,7 +20,13 @@ function Navbar() {
   return (
     <nav className="welcome__nav">
       {/* Logo */}
-      <img className="welcome__logo" src="images/AppX-Logo.png" alt="Appx20" />
+      <img
+        className={`welcome__logo ${
+          !openNav && scroll ? "welcome__logo--scroll" : ""
+        }`}
+        src="images/AppX-Logo.png"
+        alt="Appx20"
+      />
       {/* Nav */}
       <MenuIcon
         className="welcome__links--mobile "

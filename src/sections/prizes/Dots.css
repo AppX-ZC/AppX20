@@ -1,0 +1,8 @@
+.dots__line--dot {
+  height: 20px;
+  width: 20px;
+  background: #ffb45d 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px 8px;
+}

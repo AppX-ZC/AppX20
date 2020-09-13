@@ -17,7 +17,16 @@
   border-bottom-right-radius: 20px;
   padding: 10px 30px;
   z-index: 10;
+  transition: all 0.5s;
 }
+
+.welcome__logo--scroll {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  transition: all 0.5s;
+}
+
 .welcome__link {
   color: white;
   text-decoration: none;
@@ -34,6 +43,7 @@
 
 .welcome__links--mobile {
   background-color: white;
+  box-shadow: 0px 6px 5px #0000001f;
   padding: 10px;
   border-radius: 40px;
   display: none !important;
@@ -44,9 +54,15 @@
 
 .welcome__links--scroll {
   background-color: #18558b;
-  padding: 32px 0;
-  border-radius: 10px;
+  padding: 1.75% 30px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0px;
   transition: all 0.3s;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .welcome__links--mobile:hover {
@@ -60,15 +76,22 @@
 }
 
 @media (max-width: 858px) {
+  .welcome__logo {
+    position: fixed;
+    margin-right: 120px;
+    z-index: 10;
+    left: 10px;
+    top: 0px;
+  }
+
   .welcome__links {
     position: fixed;
     width: 100%;
     height: 100vh;
     background-color: white;
     z-index: 1;
-    top: -120%;
-    padding-top: 100px;
-
+    top: -125%;
+    padding-top: 140px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -90,5 +113,8 @@
 
   .welcome__links--mobile {
     display: block !important;
+    position: fixed;
+    top: 10px;
+    right: 10px;
   }
 }
