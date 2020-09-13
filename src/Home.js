@@ -5,6 +5,7 @@ import Navbar from "./sections/navbar/Navbar";
 import Prizes from "./sections/prizes/Prizes";
 import AboutUs from "./sections/about-us/AboutUs";
 import Sponsors from "./sections/sponsors/Sponsors";
+import Footer from "./sections/footer/Footer";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Prizes />
       <AboutUs />
       <Sponsors />
+      <Footer />
     </div>
   );
 }
