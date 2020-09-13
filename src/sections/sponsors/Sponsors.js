@@ -1,0 +1,73 @@
+import React from "react";
+import "./Sponsors.css";
+
+function Sponsors() {
+  return (
+    <div className="sponsors">
+      <h3 className="sponsors__header">Sponsors</h3>
+      <div className="sponsors__divider">
+        <div className="sponsors__divider--thick"></div>
+        <div className="sponsors__divider--thin"></div>
+      </div>
+      <div className="sponsors__images">
+        <img
+          src="./images/sponsors/City Logo3.png"
+          alt="sponsot city"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/Analysis.png"
+          alt="sponsor Analysis"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/Drug Cloud.png"
+          alt="sponsor drug cloud"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/EBD.png"
+          alt="sponsor ebd"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/ECB English Logo.png"
+          alt="sponsor ecb"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/EgSC logo.png"
+          alt="sponsor egsc"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/ENND logo4.png"
+          alt="sponsor ennd"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/MEK_logo.png"
+          alt="sponsor mek"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/Nobel Egypt.png"
+          alt="sponsor nobel eg"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/sammly5.png"
+          alt="sponsor sammly"
+          className="sponsors__sponsorImage"
+        />
+        <img
+          src="./images/sponsors/ABD.png"
+          alt="sponsor ABD"
+          className="sponsors__sponsorImage"
+        />
+      </div>
+    </div>
+  );
+}
+
+export default Sponsors;

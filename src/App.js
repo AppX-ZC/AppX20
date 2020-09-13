@@ -12,7 +12,7 @@ function App() {
       ></link>
       <Router>
         <Switch>
-          <Route path="/" exact>
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
