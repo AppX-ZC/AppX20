@@ -4,7 +4,7 @@ import "./AboutUs.css";
 
 function AboutUs() {
   return (
-    <div className="aboutus">
+    <div data-aos="slide-up" className="aboutus">
       <h3 className="aboutus__header">ABOUT US</h3>
       <div className="aboutus__divider">
         <div className="aboutus__divider--thick"></div>

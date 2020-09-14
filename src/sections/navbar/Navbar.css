@@ -20,6 +20,10 @@
   transition: all 0.5s;
 }
 
+.welcome__logo:hover {
+  transform: rotateY(360deg);
+}
+
 .welcome__logo--scroll {
   position: absolute;
   left: 50px;

@@ -1,11 +1,12 @@
 import React from "react";
 import "./PrizesCard.css";
 
-function Card({ firstPlace, title, description, smallTitle, order }) {
+function Card({ firstPlace, title, description, smallTitle, order, aos }) {
   return (
     <div
       className={firstPlace ? "prizescard--firstplace" : "prizescard"}
       style={{ order: order }}
+      data-aos={aos}
     >
       {firstPlace && <div className="prizescard__firstplace">1</div>}
       <h3

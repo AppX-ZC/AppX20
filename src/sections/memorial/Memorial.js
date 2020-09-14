@@ -4,14 +4,14 @@ import "./Memorial.css";
 function Memorial() {
   return (
     <div className="memorial">
-      <div className="memorial__image">
+      <div data-aos="zoom-out" className="memorial__image">
         <img
           className="memorial__imageDrAhmed"
           src="images/Ahmed_Zewail.png"
           alt="Dr\ Ahmed Zewail"
         />
       </div>
-      <div className="memorial__info">
+      <div data-aos="fade-up" className="memorial__info">
         <div className="memorial__infoHeader">
           <h2 className="memorial__infoHeader_text">Memorial Testimony</h2>
           <img

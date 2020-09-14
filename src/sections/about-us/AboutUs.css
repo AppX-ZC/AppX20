@@ -45,6 +45,12 @@
   color: white;
   font-weight: 300;
   padding-top: 30px;
+  transition: all 0.3s;
+}
+
+.aboutus__description:hover {
+  transform: rotateY(20deg);
+  cursor: pointer;
 }
 
 .aboutus__link {
@@ -60,4 +66,5 @@
 .aboutus__link:hover {
   background-color: #18558b;
   border-color: transparent;
+  box-shadow: 0px 0px 20px #89c8ff;
 }
