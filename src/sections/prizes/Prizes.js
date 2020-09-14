@@ -43,7 +43,7 @@ function Prizes() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         />
         <PrizesCard
-          aos="fade-down-left"
+          aos="fade-up"
           order={3}
           title="Feedback"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"

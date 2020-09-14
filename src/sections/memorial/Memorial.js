@@ -4,7 +4,7 @@ import "./Memorial.css";
 function Memorial() {
   return (
     <div className="memorial">
-      <div data-aos="zoom-out" className="memorial__image">
+      <div data-aos="zoom-in" className="memorial__image">
         <img
           className="memorial__imageDrAhmed"
           src="images/Ahmed_Zewail.png"

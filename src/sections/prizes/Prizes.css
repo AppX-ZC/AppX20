@@ -74,4 +74,7 @@
   .prizes {
     height: 800px;
   }
+  .prizes__dots {
+    display: none;
+  }
 }
