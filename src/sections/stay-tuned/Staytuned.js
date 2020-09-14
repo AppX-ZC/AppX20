@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import Card from "./Card";
 import Countdown from "react-countdown";
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 import "./Staytuned.css";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
@@ -21,10 +20,6 @@ function Staytuned() {
       />
     );
   };
-
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
 
   return (
     <div className="staytuned">

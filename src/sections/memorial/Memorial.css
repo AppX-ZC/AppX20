@@ -1,0 +1,58 @@
+.memorial {
+  min-height: 300px;
+  max-width: 100%;
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.memorial__imageDrAhmed {
+  max-height: 300px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.memorial__infoHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.memorial__infoHeader_text {
+  font-size: 45px;
+  font-weight: 400;
+  color: #18558b;
+  margin: 20px;
+  margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+  .memorial__infoHeader_image {
+    display: none;
+  }
+}
+
+.memorial__infoDescription {
+  max-width: 850px;
+  margin: 20px;
+  letter-spacing: 0.48px;
+  color: #18558b;
+  font-weight: 500;
+}
+
+.memorial__infoFooter {
+  margin: 20px;
+}
+
+.memorial__infoSignature {
+  letter-spacing: 0.48px;
+  color: #f5911e;
+}
+
+.memorial__infoDate {
+  letter-spacing: 0.48px;
+  color: #18558b;
+}
