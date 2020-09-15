@@ -6,14 +6,14 @@ import Dots from "./Dots";
 function Prizes() {
   return (
     <div className="prizes">
-      <h3 data-aos="flip-down" className="prizes__header">
+      <h3 data-aos="fade" className="prizes__header">
         Prizes
       </h3>
-      <div data-aos="flip-down" className="prizes__divider">
+      <div data-aos="fade" className="prizes__divider">
         <div className="prizes__divider--thick"></div>
         <div className="prizes__divider--thin"></div>
       </div>
-      <div data-aos="flip-down" className="prizes__description">
+      <div data-aos="fade" className="prizes__description">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.

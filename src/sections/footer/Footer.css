@@ -42,11 +42,14 @@
 
 .footer__info__Text {
   color: #606060;
+  max-width: 80%;
 }
 
 .footer_info__social {
   display: flex;
   margin: 20px;
+  margin-right: 0;
+  /* max-width: 80%; */
 }
 
 .footer__info__socialIcon {
