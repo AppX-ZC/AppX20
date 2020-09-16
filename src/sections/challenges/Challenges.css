@@ -51,6 +51,7 @@
 .challegens__cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: stretch;
+  justify-content: center;
   width: 80%;
 }
