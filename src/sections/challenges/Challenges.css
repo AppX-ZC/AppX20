@@ -1,0 +1,56 @@
+.challenges {
+  min-height: 600px;
+  background-color: #e5f3ff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.challenges__header {
+  font-size: 30px;
+  font-weight: 400;
+  color: #18558b;
+  padding-bottom: 10px;
+  z-index: 2;
+}
+.challenges__divider {
+  height: 1px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.challenges__divider--thick {
+  width: 50px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #18558b;
+  position: absolute;
+}
+
+.challenges__divider--thin {
+  width: 80px;
+  height: 1px;
+  border-radius: 10px;
+  background-color: #18558b;
+}
+
+.challenges__description {
+  max-width: 800px;
+  text-align: center;
+  color: #606060;
+  letter-spacing: 1.8px;
+  z-index: 2;
+  padding: 10px;
+}
+
+.challegens__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}

@@ -42,7 +42,7 @@ function Navbar() {
         <Link className="welcome__link welcome__link--selected" to="/">
           <span className="welcome__linkText">HOME</span>{" "}
         </Link>
-        <Link className="welcome__link" to="/about">
+        {/* <Link className="welcome__link" to="/about">
           <span className="welcome__linkText">ABOUT</span>{" "}
         </Link>
         <Link className="welcome__link" to="/blog">
@@ -53,7 +53,7 @@ function Navbar() {
         </Link>
         <Link className="welcome__link" to="/contact">
           <span className="welcome__linkText">CONTACT</span>{" "}
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );

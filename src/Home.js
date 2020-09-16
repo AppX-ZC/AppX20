@@ -9,6 +9,7 @@ import AboutUs from "./sections/about-us/AboutUs";
 import Sponsors from "./sections/sponsors/Sponsors";
 import Footer from "./sections/footer/Footer";
 import Memorial from "./sections/memorial/Memorial";
+import Challenges from "./sections/challenges/Challenges";
 
 function Home() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function Home() {
       <Navbar />
       <Welcome />
       <Staytuned />
+      <Challenges />
       <Prizes />
       <AboutUs />
       <Memorial />
