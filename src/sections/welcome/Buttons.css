@@ -1,3 +1,10 @@
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .buttons {
   display: flex;
   flex-wrap: wrap;
@@ -38,6 +45,7 @@
   background-color: white;
   border-color: white;
   color: #55cb43;
+  cursor: pointer;
 }
 .buttons__link--hackathon:hover .button__icon {
   background-color: #55cb43;
@@ -53,10 +61,19 @@
   border: 1px solid white;
   background-color: white;
   color: #55cb43;
+  cursor: pointer;
 }
 
 .buttons__link--summit:hover .button__icon {
   background-color: #55cb43;
   padding: 10px;
   border-radius: 10px;
+}
+
+.btn__message {
+  padding: 10px;
+  background: rgba(255, 63, 63, 0.9);
+  margin: 20px;
+  border-radius: 5px;
+  color: #fff;
 }

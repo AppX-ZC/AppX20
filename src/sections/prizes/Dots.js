@@ -5,36 +5,36 @@ function Dots() {
   return (
     <div className="dots">
       <div className="dots__line">
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
       </div>
       <div className="dots__line">
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
       </div>
       <div className="dots__line">
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
       </div>
       <div className="dots__line">
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
-        <span class="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
+        <span className="dots__line--dot"></span>
       </div>
     </div>
   );
