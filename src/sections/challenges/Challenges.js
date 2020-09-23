@@ -1,5 +1,6 @@
 import { Button } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
+import _ from "lodash";
 import ChallengeCard from "./ChallengeCard";
 import "./Challenges.css";
 
@@ -158,20 +159,24 @@ function Challenges() {
         </p>
       </div>
 
-      <div className="challegens__cards">
-        {showChallenges.map((e) => (
-          <ChallengeCard
-            image={e.image}
-            title={e.title}
-            description={e.description}
-            key={e.title}
-            onClick={() => {
-              if (!nestedData) {
-                setShowChallenges(e.challenges);
-                setNestedData(true);
-              }
-            }}
-          />
+      <div className="challenges__cards">
+        {_.times(Math.ceil(showChallenges.length / 2), (index) => (
+          <div className="challenges__cards--double">
+            {showChallenges.slice(index * 2, index * 2 + 2).map((e) => (
+              <ChallengeCard
+                image={e.image}
+                title={e.title}
+                description={e.description}
+                key={e.title}
+                onClick={() => {
+                  if (!nestedData) {
+                    setShowChallenges(e.challenges);
+                    setNestedData(true);
+                  }
+                }}
+              />
+            ))}
+          </div>
         ))}
       </div>
       {nestedData && (

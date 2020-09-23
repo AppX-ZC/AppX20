@@ -48,10 +48,17 @@
   padding: 10px;
 }
 
-.challegens__cards {
+.challenges__cards {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: center;
-  width: 80%;
+  width: 90%;
+}
+
+.challenges__cards--double {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
 }
