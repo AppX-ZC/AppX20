@@ -10,6 +10,7 @@ import Sponsors from "./sections/sponsors/Sponsors";
 import Footer from "./sections/footer/Footer";
 import Memorial from "./sections/memorial/Memorial";
 import Challenges from "./sections/challenges/Challenges";
+import Before from "./sections/before_the_hackathon/Before";
 
 function Home() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function Home() {
       <Navbar />
       <Welcome />
       <Staytuned />
+      <Before />
       <Challenges />
       <Prizes />
       <AboutUs />

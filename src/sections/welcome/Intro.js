@@ -4,12 +4,15 @@ import "./Intro.css";
 function Intro() {
   return (
     <div className="intro">
-      <h1 className="intro__hero">Welcome to AppX '20</h1>
+      <h1 className="intro__hero">AppX’20 “Think, act and change”</h1>
       <p className="intro__description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        It is powered by IEEE Zewail City to share technology awareness and
+        knowledge along with technical workshops and public lectures with all
+        the people eager about engineering and technology. The theme of AppX '20
+        is about Sustainability and the application of the Sustainable
+        Development Goals (SDGs) of the United Nations (UN) along with some
+        technical aspects representing the involvement with The Fourth
+        Industrial Revolution.
       </p>
     </div>
   );

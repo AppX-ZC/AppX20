@@ -15,8 +15,9 @@ function Prizes() {
       </div>
       <div data-aos="fade" className="prizes__description">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          AppX provides financial and symbolic prizes for participants who will
+          win in the hackathon and attend the workshops to encourage them, and
+          to turn their ideas into applications
         </p>
       </div>
       <div className="prizes__dots">
@@ -33,7 +34,7 @@ function Prizes() {
           firstPlace
           title="20.000"
           smallTitle="Egp"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          description="The first place winning teams will win prizes up to 20,000 EGP"
           order={2}
         />
         <PrizesCard

@@ -1,0 +1,31 @@
+.before {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5f3ff;
+}
+.before__header {
+  font-size: 30px;
+  font-weight: 400;
+  color: #18558b;
+  padding-bottom: 10px;
+  z-index: 2;
+}
+.before__description {
+  max-width: 800px;
+  text-align: left;
+  color: #606060;
+  letter-spacing: 1.8px;
+  z-index: 2;
+  padding: 10px;
+}
+
+.before__instructors {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

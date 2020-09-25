@@ -40,7 +40,7 @@
 
 .prizes__description {
   max-width: 500px;
-  text-align: center;
+  text-align: left;
   color: #606060;
   letter-spacing: 1.8px;
   z-index: 2;
