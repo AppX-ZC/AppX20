@@ -25,3 +25,23 @@
 .during__image {
   max-width: 90%;
 }
+
+.during__days {
+  display: flex;
+  margin: 30px;
+}
+
+.during__days__day {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #18558b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #18558b;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
