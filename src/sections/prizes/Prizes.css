@@ -1,10 +1,12 @@
 .prizes {
-  height: 600px;
+  min-height: 600px;
   background-color: #e5f3ff;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
+  padding: 20px;
 }
 
 .prizes__header {
@@ -39,7 +41,7 @@
 }
 
 .prizes__description {
-  max-width: 500px;
+  max-width: 800px;
   text-align: left;
   color: #606060;
   letter-spacing: 1.8px;
@@ -72,9 +74,7 @@
   .prizes__cards {
     flex-direction: column;
   }
-  .prizes {
-    height: 800px;
-  }
+
   .prizes__dots {
     display: none;
   }

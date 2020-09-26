@@ -4,6 +4,13 @@ import "./Sponsors.css";
 function Sponsors() {
   return (
     <div className="sponsors">
+      <h3 className="sponsors__header">Closing and Ceremony</h3>
+      <p className="sponsors__description">
+        Finally, Many Thanks for all the attendees. We hope you all the best at
+        your next steps, and we are looking forward to seeing you in the next
+        event. Also, We give warmest thanks to our sponsors for their continued
+        support.
+      </p>
       <h3 className="sponsors__header">Sponsors</h3>
       <div className="sponsors__divider">
         <div className="sponsors__divider--thick"></div>

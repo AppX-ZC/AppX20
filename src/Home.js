@@ -12,6 +12,7 @@ import Memorial from "./sections/memorial/Memorial";
 import Challenges from "./sections/challenges/Challenges";
 import Before from "./sections/before_the_hackathon/Before";
 import During from "./sections/during_the_hackathon/During";
+import Pitching from "./sections/pitching/Pitching";
 
 function Home() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function Home() {
       <Challenges />
       <During />
       <Prizes />
+      <Pitching />
       <AboutUs />
       <Memorial />
       <Sponsors />

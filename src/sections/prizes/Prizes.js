@@ -17,7 +17,9 @@ function Prizes() {
         <p>
           AppX provides financial and symbolic prizes for participants who will
           win in the hackathon and attend the workshops to encourage them, and
-          to turn their ideas into applications
+          to turn their ideas into applications. Additionally, Participants who
+          will attend the workshops and the boot camps will receive free courses
+          from coursera and data Camp with free certifications.
         </p>
       </div>
       <div className="prizes__dots">
