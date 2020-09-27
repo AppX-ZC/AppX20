@@ -4,7 +4,7 @@ import "./Summit.css";
 
 const days = {
   day1: {
-    dayName: "FirstDay",
+    dayName: "First Day",
     dayTitle: "Business",
     dayDescription:
       "Business can help you truly broaden your horizons and pursue your passions successfully. Besides, business will force you to look at things globally, especially in today’s international economy. This is great for those who want to work towards having a more global perspective and outlook. And of course, when you study business, you’ll also have plenty of opportunities to study abroad.",
@@ -21,6 +21,31 @@ const days = {
     },
     secondSession: {
       beforeSession: "There will be another session given by;",
+      instructorImage: "images/sessions/Jana Elbaba.jpg",
+      instructorName: "Jana El Baba",
+      aboutInstructor:
+        "(Programme Specialist for Social and Human Sciences at the United Nations Educational, Scientific and Cultural Organization (UNESCO) – Regional Office in Cairo. She is responsible for a number of regional and national programmes in the area of youth civic engagement and capacity-development, inter-cultural dialogue, prevention of violent extremism, inclusive urban development, gender empowerment, sport for sustainable development, bioethics and the ethics of science and technology in the Arab region.)",
+      linkedIn: "https://www.linkedin.com/in/jana-el-baba-039694ab/",
+    },
+    moreInfo:
+      "At the end of the day there will be a workshop about natural disasters.",
+  },
+  day2: {
+    dayName: "Second Day",
+    dayTitle: "Environment",
+    dayDescription:
+      "Our environment is a vital part of our everyday lives. It affects everything we do, from climates to animal survival, to air quality, and much more. So, Being aware of surroundings helps us take the right measures to protect it. In order to adapt to the environment living things constantly change to enhance survival in the various environments they get exposed to, everyone needs to come up with better ways of using his tools to ensure that the environment remains protected.",
+    firstSession: {
+      beforeSession:
+        "Therefore, There will be a session about Environment sponsored by Greenish Egypt, and given by;",
+      instructorImage: "images/sessions/Shady Khalil.jpg",
+      instructorName: "Mr.Shady Khalil",
+      aboutInstructor:
+        " (Managing partner of Greenish Egypt. He was the project manager for a project that collectively compiled street performances with residences of 8 villages around Minya, Upper Egypt. He was project Coordinator, workshop facilitator, and storyteller at BuSSy that performs arts projects/movements that document and gives voice to censored untold stories about gender in different communities in Egypt.)",
+      linkedIn: "https://www.linkedin.com/in/shadyakhalil/",
+    },
+    secondSession: {
+      beforeSession: "There will be another session given by;",
       instructorImage: "images/sessions/Yasmeen Nagaty.jpg",
       instructorName: "Yasmine Nagaty",
       aboutInstructor:
@@ -32,8 +57,24 @@ const days = {
     moreInfo:
       "At the end of the day, there will also be a workshop about business.",
   },
-  day2: {},
-  day3: {},
+  day3: {
+    dayName: "Third Day",
+    dayTitle: "Technology",
+    dayDescription:
+      "Society has been dramatically changed with the evolution of technology. Before the advent of modern day technology, life was burdensome and everyday tasks consumed too much of our time. Tremendous opportunities are being provided by technologies which play an important role in human life. The access to education, medicine, industry, transportation has been simplified due to modern day technology. Due to the convenience and efficiency provided by technology, our lives have improved significantly.",
+    firstSession: {
+      beforeSession:
+        "Therefore, There will be a session about technology given by;",
+      instructorImage: "images/sessions/Elsayed Hemayed.jpg",
+      instructorName: "Dr.Elsayed Hemayed",
+      aboutInstructor:
+        "(Professor and Director, Communication and Information Engineering, University of Science and Technology, Zewail City. He has more than 25 years’ experience of research and teaching in the area of computer science and engineering with focus in Computer Vision, Machine Learning, Data Analytics, Software and Data Engineering).",
+      linkedIn: "https://www.linkedin.com/in/elsayed-hemayed-27813a7/",
+    },
+
+    moreInfo:
+      "At the end of the day, There will be also workshops about IOT, Unity, Cyber Security, machine learning, and data science ",
+  },
 };
 
 function Summit() {
@@ -49,8 +90,8 @@ function Summit() {
         various engineering, technology, and scientific fields.
       </p>
       <Day day={days.day1} />
-      <Day day={days.day1} />
-      <Day day={days.day1} />
+      <Day day={days.day2} />
+      <Day day={days.day3} />
     </div>
   );
 }
