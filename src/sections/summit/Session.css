@@ -1,0 +1,64 @@
+.session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 5px 10px 35px #00000029;
+  min-height: 350px;
+  padding: 10px;
+  max-width: 350px;
+  min-width: 250px;
+  border-radius: 15px;
+  color: #005e10;
+  margin: 10px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+  position: relative;
+  backface-visibility: hidden;
+}
+.session__image {
+  width: 150px;
+  max-height: 150px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.session__back {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transition: all 0.6s ease-in-out;
+}
+
+.session__front {
+  backface-visibility: hidden;
+  transition: all 0.6s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.session__back__icon {
+  width: 40px !important;
+  height: 40px !important;
+  color: #18558b;
+}
+
+.session:hover {
+  background-color: #f1fff3;
+}
+
+.session:hover > .session__front {
+  transform: rotateY(-180deg);
+}
+
+.session:hover > .session__back {
+  transform: rotateY(0deg);
+}

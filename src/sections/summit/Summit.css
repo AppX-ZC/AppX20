@@ -1,0 +1,24 @@
+.summit {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#eafdeb, #c1fcc1);
+  min-height: 300px;
+}
+.summit__header {
+  font-size: 30px;
+  font-weight: 400;
+  color: #4fb635;
+  padding-bottom: 10px;
+  z-index: 2;
+}
+.summit__description {
+  max-width: 800px;
+  text-align: left;
+  color: #005e10;
+  letter-spacing: 1.8px;
+  z-index: 2;
+  padding: 10px;
+}
