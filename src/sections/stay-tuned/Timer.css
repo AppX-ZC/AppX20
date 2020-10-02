@@ -3,7 +3,7 @@
   box-shadow: 0px 5px 25px #00000029;
   border-radius: 8px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   width: 79%;
   margin: 10px;
   align-items: center;
@@ -25,6 +25,8 @@
 .timer__time {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .timer__time--count {
@@ -43,4 +45,10 @@
 
 .timer__time--title {
   color: #55cb43;
+}
+
+@media (max-width: 668px) {
+  .timer__glass {
+    height: 20%;
+  }
 }

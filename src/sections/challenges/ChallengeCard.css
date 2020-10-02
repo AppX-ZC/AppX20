@@ -35,7 +35,7 @@
 
 .challengeCard__description {
   margin-top: 10px;
-  text-align: left;
+  text-align: justify;
   line-height: 1.5;
   font-size: 14px;
 }

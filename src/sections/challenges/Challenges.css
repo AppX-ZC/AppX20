@@ -41,7 +41,7 @@
 
 .challenges__description {
   max-width: 800px;
-  text-align: left;
+  text-align: justify;
   color: #606060;
   letter-spacing: 1.8px;
   z-index: 2;

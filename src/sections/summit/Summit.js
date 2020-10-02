@@ -14,7 +14,7 @@ const days = {
       instructorImage: "images/sessions/Moataz Darwish.jpg",
       instructorName: "Mr.Moataz Darwish",
       aboutInstructor:
-        "Communication and information Engineering student in zewail city of Science of technology. He trained the assistants to be highly qualified to help the participants during the online workshops.",
+        "(Vice Chairman, External & Government Relations Manager at Shell Egypt. He spent the last 14 years with Royal Dutch Shell. He was the Country Commercial Director, Executive Team Member and a Non-Executive Board Director for the NATGAS and Nubariya companies. He acted in the capacity of Commercial Manager for the UK Southern North Sea in NAM. He has more than 25 years of experience in commercial negotiations, strategy & business development and corporate affairs.) ",
       linkedIn: "https://www.linkedin.com/in/moataz-darwish-5325833/",
       moreInfo: "For more info about shell Egypt,",
       moreInfoLink: "https://www.shell.eg/en_eg/sustainability.html",
@@ -80,8 +80,10 @@ const days = {
 function Summit() {
   return (
     <div className="summit">
-      <h3 className="summit__header">The Summit</h3>
-      <p className="summit__description">
+      <h3 className="summit__header" data-aos="fade-in">
+        The Summit
+      </h3>
+      <p className="summit__description" data-aos="fade-in">
         It will be from 10th to 12th October. It will include intensive
         workshops in the fields of Environment, business, and technology,
         including a Crash Course, an Exhibition, Technology and Industry, and

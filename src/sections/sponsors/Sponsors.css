@@ -8,7 +8,7 @@
 }
 
 .sponsors__header {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   color: white;
   padding-top: 50px;
@@ -41,7 +41,8 @@
 
 .sponsors__description {
   max-width: 800px;
-  text-align: left;
+
+  text-align: justify;
   letter-spacing: 1.8px;
   color: white;
   font-weight: 300;
@@ -55,7 +56,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 0px;
+  padding: 20px;
 }
 
 .sponsors__sponsorImage {

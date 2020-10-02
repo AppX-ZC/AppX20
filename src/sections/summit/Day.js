@@ -4,7 +4,7 @@ import "./Day.css";
 
 function Day({ day }) {
   return (
-    <div className="day">
+    <div className="day" data-aos="fade-up">
       <h4 className="day__header">{day.dayName}</h4>
       <h5 className="day__header2">{day.dayTitle}</h5>
       <p className="day__description">{day.dayDescription}</p>
