@@ -29,7 +29,7 @@ function Home() {
       <Pitching />
       <Memorial />
       <Summit />
-      <Sponsors />
+      {/* <Sponsors /> */}
     </div>
   );
 }
